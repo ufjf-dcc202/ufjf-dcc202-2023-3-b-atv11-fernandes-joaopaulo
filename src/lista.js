@@ -12,7 +12,7 @@ function adicionaNaLista(item){
     lista.push(item);
 }
 
-function removeDaLista(){
+function removeDaLista(posicao){
     lista.splice(posicao, 1);
 }
 
